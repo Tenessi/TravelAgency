@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Travel Agency</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="header">
+    <div class="container">
+      <div class="header__row row">
+        <a class="header__logo col-3">
+          Explore
+        </a>
+        <nav class="menu__input offset-3 col-4 offset-sm-4 col-sm-3 offset-md-3 col-md-2 offset-xl-4 col-lg-0">
+          <select class="input__form form-select" aria-label="Default select example">
+            <option selected>Home</option>
+            <option value="1">Tours</option>
+            <option value="2">Hotel</option>
+            <option value="3">Gallery</option>
+            <option value="4">Pages</option>
+            <option value="5">Blog</option>
+            <option value="6">Contact</option>
+          </select>
+        </nav>
+        <nav class="header__menu menu col-6">
+          <ul class="menu__list">
+            <li class="menu__item">
+              <a href="#" class="menu__link">
+                Home 
+              </a>
+            </li>
+            <li class="menu__item">
+              <a href="#" class="menu__link">
+                Tours
+              </a>
+            </li>
+            <li class="menu__item">
+              <a href="#" class="menu__link">
+                Hotel
+              </a>
+            </li>
+            <li class="menu__item">
+              <a href="#" class="menu__link">
+                Gallery 
+              </a>
+            </li>
+            <li class="menu__item">
+              <a href="#" class="menu__link">
+                Pages
+              </a>
+            </li>
+            <li class="menu__item">
+              <a href="#" class="menu__link">
+                Blog 
+              </a>
+            </li>
+            <li class="menu__item">
+              <a href="#" class="menu__link">
+                Contact 
+              </a>
+            </li>
+          </ul>
+        </nav>
+        <a href="#" class="header__login col-2 col-md-1">Login</a>
+        <div class="header__button col-12 col-md-2">
+          <a href="#" class="header__button_link">Sign UP</a>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main class="main">
+    <div class="main__hero">
+      <div class="container">
+        <div class="row">
+          <div class="main__content">
+            <h1 class="main__title col-11 col-sm-9 col-lg-6">
+              It's a Big World Out There, Go Explore
+            </h1>
+            <p class="main__description col-10 col-sm-9 col-lg-6">
+              Conveniently customize proactive web services for leveraged without continualliery aggregate fricctionle ou wellies richard.and very customize  continually.
+            </p>
+            <button class="main__button_yellow col-6 col-sm-3 col-lg-2">
+              Get Exploration 
+            </button>
+            <button class="main__button_white col-6 col-sm-3 col-lg-2">
+              Read More
+            </button>
+          </div>
+          <div class="main__image _ibg">
+            <img src="img/Hero.jpg" alt="Cover">
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="main__form form">
+      <div class="container">
+        <div class="row row-form">
+          <div class="form__choise choise">
+            <div class="choise__hotel">
+              <a href="#" class="choise__hotel_link">
+                Hotel
+              </a>
+            </div>
+            <div class="choise__flight choise__white">
+              <a href="#" class="choise__flight_link choise__white_link">
+                Flight
+              </a>
+            </div>
+            <div class="choise__car choise__white">
+              <a href="#" class="choise__car_link choise__white_link">
+                Car
+              </a>
+            </div>
+            <div class="choise__ship choise__white">
+              <a href="#" class="choise__ship_link choise__white_link">
+                Ship
+              </a>
+            </div>
+          </div>
+          <form class="form__cell cell">
+            <div class="row cell__row">
+              <div class="cell__input_col row col-12 col-sm-4 col-lg-2">
+                <label for="Input1" class="cell__label col-12">Your Destination</label>
+                <input type="text" required placeholder="Thailand" id="Input1" class="cell__input col-12">
+              </div>
+              <div class="cell__input_col row col-12 col-sm-4 col-lg-2">
+                <label for="Input2" class="cell__label col-12">Check In</label>
+                <input type="text" required placeholder="01-26-22" id="Input2" class="cell__input col-12">
+              </div>
+              <div class="cell__input_col row col-12 col-sm-4 col-lg-2">
+                <label for="Input3" class="cell__label col-12">Check Out</label>
+                <input type="text" required placeholder="01-30-22" id="Input3" class="cell__input col-12">
+              </div>
+              <div class="cell__input_col row col-12 col-sm-4 col-lg-2">
+                <label for="Input4" class="cell__label col-12">Child</label>
+                <input type="text" required placeholder="2" id="Input4" class="cell__input col-12">
+              </div>
+              <div class="cell__input_col row col-12 col-sm-4 col-lg-2">
+                <label for="Input5" class="cell__label col-12">Adult</label>
+                <input type="text" required placeholder="3" id="Input5" class="cell__input col-12">
+              </div>
+              <div class="cell__input_button row align-items-end col-12 col-sm-4 col-lg-2">
+                <button type="submit" class="cell__button col">Book Now</button>
+              </div>
+            </div>
+          </form>
+          <div class="background-image">
+            <img src="/img/Travel.png" class="background__image" alt="Cover">
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="main__about">
+      <div class="container">
+        <div class="row about__row">
+          <div class="about__image col-0 col-sm-6 col-lg-6">
+            <img src="img/People1.png" class="about__image_first" alt="Place">
+            <img src="img/People2.png" class="about__image_second" alt="Woman">
+          </div>
+          <div class="about__content col-12 col-sm-6 col-lg-5">
+            <div class="about__logo">
+              <img src="img/Aboutus.svg" alt="About Us">
+            </div>
+            <h2 class="about__title">
+              World Best Travel Agency Company Since 2008.
+            </h2>
+            <p class="about__description">
+              Continually productize compelling quality for packed with  elated productize compelling quality for packed in  with all elated Them Setting up to website and creating pages.
+            </p>           
+            <ul class="about__list">
+              <li class="about__item">
+                We providing compe quality for packed with elated different.
+              </li>
+              <li class="about__item">
+                We are one of compelling quality for packed with leading.
+              </li>
+              <li class="about__item">
+                Learn how compelling quality for packed with  elated grow.
+              </li>
+            </ul>
+            <div class="about__value value row">
+              <div class="value__block col">
+                <h2 class="value__title">
+                  20+
+                </h2>
+                <p class="value__description">
+                  Year Experience
+                </p>
+              </div>
+              <div class="value__block col">
+                <h2 class="value__title">
+                  250+
+                </h2>
+                <p class="value__description">
+                  Destination Collaboratin
+                </p>
+              </div>
+              <div class="value__block col">
+                <h2 class="value__title">
+                  170K+
+                </h2>
+                <p class="value__description">
+                  Happy Customers
+                </p>
+              </div>
+            </div>
+            <button class="about__button">Read More</button>
+          </div>
+          <div class="about__tropic col-md-1">
+            <img src="img/Tropic.png" alt="Tropic">
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+</body>
+</html>
